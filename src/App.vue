@@ -69,8 +69,8 @@ export default {
 @import "~vue-material/dist/theme/engine";
 
 @include md-register-theme("default", (
-    primary: #200a33, 
-    accent: rgb(245, 214, 11), 
+   primary: #200a33, 
+   accent: rgb(245, 214, 11), 
    theme: dark
 ));
 
