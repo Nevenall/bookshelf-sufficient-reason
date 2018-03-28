@@ -1,22 +1,22 @@
 language: node_js
 node_js:
-  - node
+- node
 install:
-  - npm i -g npm
-  - npm ci
+- npm i -g npm
+- npm ci
 branches:
   only:
   - master
 cache:
   directories:
-    - "node_modules"
+  - node_modules
 script:
-  - npm run build
+- npm run build
 deploy:
   skip_cleanup: true
   provider: firebase
   token:
-    secure: b0ExiwDbJ8jK5ytxwYqbj+xbd75lFSKZPfiJr2Vo6zwiNCnfXv1ngX04KOxWVIdPabs3Q0VhTUntb4qL+Zsg/g/VH1v3HOdkqMFPDjbENHE9prC8oWMekRw+N+0igA6tYYN94AfJ9HoMThguzpGLR8m6eJ4aHNUklqCgSivt+IlJmIoY6MeYgChROCh/qqujwWfoj4zwnimo49sZzXJLcaVnJ/U/7hK+t7Rmet4CqS+mImEgQu84VpYDeJJZlD3yk50UKENsa7JhsbTxIHdB+59uX5g1mQbLvCmjhc9PfihNpSjRDVp5t0j0uWyAmPYpmVjcdODw9xWAHbDnqV0hpaB6QRunPDLpsIoMG2T3piDRGUKlguxtpWxfJG2x3G3tobE+TnX6uyYCo35AGIUSB/1rB5d4rOOK/FhuDSzO9Cnm53RtoEJ2OReOfGjJ/WpdbDn/i38hRMmLMerouLN1KPQhPRPTCotnQS5mW59zM/UFXrc/m1t7jqGUd9mKs6oU8so5WShSUnYjDlx3VFnYBth72Rq17qiiQgTiiLcM7rHE0I2elDbKkk5N6vvWdMwSvNi9yb8JGXMjCRkCP3WOX8Ax8jGrkgTA22pjKU4OOAEOrEVB4VeqYPenuBhsC5V03ev7v7xhuNQVYodtwmeP1qQhxy4+yqlLuVrWpq48pBM=
+    secure: rmyYyuvd7M1MJz6wHz7NGJMJ85k8fT5T/Ew9pxab92NYbxnwPRv+HHhfz5U89oNROdBtVneXnQAu4Z8XO7Ga29uEDci+8a9XJ9YCRdjTtOjAFwb1FjBYDm3mFQgqKpFSalXnC7528RfXEn9b2vFHAlevWXmcusjl2icxnhq4Wwy8N8xgqN3/X2iVNzf7RmhzVCe/D/uVLI1dXRurBHg7G3H4Ns3uoAM8Y1Bghl7zUpmPLbsIQDXt8J0teIRFQeQSosXjDJfWoXol7tb+VDXW59AhwKdoP9nf+dsd5p81YE+1JRC5ucAn149wbyqxlTK5W8rkxFt8dYRKqRiwQz0njOrfr/+Jml1wR+FR04Qhls6zy0X1VYuAOP27LfAuJnF3ZcBKpZWe9lnfh9qtN8h44J98qidBIHE4hlPh4e+3EhBuznGBC7X11e2qYc9VeRVYF7FN4rJTR3OnPY8bMHa70oOL1zGzc1sN1VK8SAQprigzSybEJEqrtfRpvtaUbwiB9pttm+4Y/AdSS8bTlCboegRZkI80+p1Ka9MQkAVUD28mJWL9f0L6vJRxCrbDHJJvm41S+ghSj0n4oYVsxFXHXo1VFmYnnwipw5FtOHxMS089oCzhfkWXFVwKUw/+L2jKISP48aJa5S4LiaCl0CujlhsPjVqeqa4EahhdW0/lSqE=
 notifications:
   email:
-    - travis@nevenall.games
+  - travis@nevenall.games
