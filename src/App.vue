@@ -75,12 +75,31 @@ export default {
 ));
 
 @import "~vue-material/dist/theme/all";
+
+@font-face {
+  font-family: "DovesType-Regular";
+  src: url("fonts/dovestype-regular.woff2") format("woff2"),
+    url("fonts/dovestype-regular.woff") format("woff");
+}
+
 .md-app {
   height: 100vh;
 }
 .md-app-content {
+  font-family: "DovesType-Regular";
   padding-right: 7vw !important;
   padding-left: 7vw !important;
   text-align: justify;
+  font-size: 20px;
+}
+.md-app-content h1,
+.md-app-content h2,
+.md-app-content h3,
+.md-app-content h4,
+.md-app-content h5,
+.md-app-content h6 {
+  font-weight: normal !important;
+  font-variant-caps: titling-caps;
+  text-align: right !important;
 }
 </style>
