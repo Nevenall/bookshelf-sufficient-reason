@@ -81,7 +81,7 @@ export default {
 }
 </style>
 
-<style lang="scss">
+<style >
 @font-face {
   font-family: "DovesType-Regular";
   src: url("fonts/dovestype-regular.woff2") format("woff2"),
