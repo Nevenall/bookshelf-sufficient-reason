@@ -29,7 +29,7 @@
                </md-list-item>
             </md-list>
          </md-app-drawer>
-         <md-app-content>
+         <md-app-content id="page">
             <router-view></router-view>
          </md-app-content>
       </md-app>
@@ -76,30 +76,35 @@ export default {
 
 @import "~vue-material/dist/theme/all";
 
+.md-app {
+  height: 100vh;
+}
+</style>
+
+<style lang="scss">
 @font-face {
   font-family: "DovesType-Regular";
   src: url("fonts/dovestype-regular.woff2") format("woff2"),
     url("fonts/dovestype-regular.woff") format("woff");
 }
 
-.md-app {
-  height: 100vh;
-}
-.md-app-content {
+#page {
   font-family: "DovesType-Regular";
-  padding-right: 7vw !important;
-  padding-left: 7vw !important;
+  padding-right: 7vw;
+  padding-left: 7vw;
   text-align: justify;
   font-size: 20px;
 }
-.md-app-content h1,
-.md-app-content h2,
-.md-app-content h3,
-.md-app-content h4,
-.md-app-content h5,
-.md-app-content h6 {
-  font-weight: normal !important;
-  font-variant-caps: titling-caps;
-  text-align: right !important;
+
+#page h1,
+#page h2,
+#page h3,
+#page h4,
+#page h5,
+#page h6 {
+  text-align: left;
+  font-weight: normal;
+  font-variant-ligatures: none;
+  text-transform: uppercase;
 }
 </style>
