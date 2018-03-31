@@ -81,19 +81,14 @@ export default {
 }
 </style>
 
-<style >
-@font-face {
-  font-family: "DovesType-Regular";
-  src: url("fonts/dovestype-regular.woff2") format("woff2"),
-    url("fonts/dovestype-regular.woff") format("woff");
-}
-
+<style>
+@import url("https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,400i,700,700i|Marcellus+SC");
 #page {
-  font-family: "DovesType-Regular";
-  padding-right: 7vw;
-  padding-left: 7vw;
+  font-family: "Gentium Book Basic", serif;
+  padding-right: 8vw;
+  padding-left: 8vw;
   text-align: justify;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 #page h1,
@@ -103,8 +98,7 @@ export default {
 #page h5,
 #page h6 {
   text-align: left;
+  font-family: 'Marcellus SC', serif;
   font-weight: normal;
-  font-variant-ligatures: none;
-  text-transform: uppercase;
 }
 </style>
