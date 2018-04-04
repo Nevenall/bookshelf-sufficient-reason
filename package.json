@@ -1,7 +1,7 @@
 {
-  "name": "bookshelf",
+  "name": "bookshelf-sufficient-reason",
   "version": "1.0.0",
-  "description": "A progressive web app for styling and serving html books",
+  "description": "A BookShelf instance for Sufficient Reason",
   "author": "nevenall <nevenall@hotmail.com>",
   "private": true,
   "scripts": {
@@ -12,13 +12,13 @@
     "test": "npm run unit"
   },
   "dependencies": {
-    "ajv": "^6.4.0",
     "vue": "^2.5.16",
     "vue-material": "^1.0.0-beta-8",
     "vue-router": "^3.0.1",
     "vue-scroll-behavior": "^0.2.0"
   },
   "devDependencies": {
+    "ajv": "^6.4.0",
     "autoprefixer": "^7.2.6",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
