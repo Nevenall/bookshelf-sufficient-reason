@@ -18,6 +18,12 @@ It might also be interesting to be able to navigate a single markdown file. Wher
 We can either programmatically break up the file into chunks. That may make the most sense. Or try to inject some kind of nav links into the headers. 
 acutally, a file splitting pre-processor probably makes the most sense. It's a side task to make `BookShelf` compatible chunks. 
 
-## Typography
+## Typography - Specific to SR
 
-the book on web typography is great, and we can start applying it's advice right away. 
+Fonts, I don't like generate appear of Gentium book. 
+
+What about Cormorant Garamond with the current headers? It's really light but might work with the headers?
+Worth a try, but I think Libre Baskerville might be better overall for book text. I wish it had a bold italics style though. 
+
+Man, I really need a typeface with a small caps style too.
+
