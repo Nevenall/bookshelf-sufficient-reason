@@ -29,8 +29,12 @@
                </md-list-item>
             </md-list>
          </md-app-drawer>
-         <md-app-content id="page">
-            <router-view></router-view>
+         <md-app-content>
+            <div id="typography">
+               <div id="page">
+                  <router-view></router-view>
+               </div>
+            </div>
          </md-app-content>
       </md-app>
    </div>
@@ -83,12 +87,23 @@ export default {
 
 <style>
 @import url("https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,400i,700,700i|Marcellus+SC");
+
+#typography div {
+  max-width: 35em;
+  margin: auto;
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+#typography p {
+  text-align: justify;
+  hyphens: auto;
+  hyphenate-limit-lines: 2;
+}
+
+
 #page {
   font-family: "Gentium Book Basic", serif;
-  padding-right: 8vw;
-  padding-left: 8vw;
-  text-align: justify;
-  font-size: 16px;
 }
 
 #page h1,
@@ -101,4 +116,5 @@ export default {
   font-family: 'Marcellus SC', serif;
   font-weight: normal;
 }
+
 </style>
