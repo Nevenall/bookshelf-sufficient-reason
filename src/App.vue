@@ -86,13 +86,13 @@ export default {
 </style>
 
 <style>
-@import url("https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,400i,700,700i|Marcellus+SC");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,500i,600,600i,700,700i|Marcellus+SC");
 
 #typography div {
   max-width: 35em;
   margin: auto;
-  font-size: 1rem;
-  line-height: 1.2;
+  font-size: 1.2rem;
+  line-height: 1.1;
 }
 
 #typography p {
@@ -103,7 +103,8 @@ export default {
 
 
 #page {
-  font-family: "Gentium Book Basic", serif;
+  font-family: "Cormorant Garamond";
+  font-weight: 300;
 }
 
 #page h1,
@@ -113,7 +114,7 @@ export default {
 #page h5,
 #page h6 {
   text-align: left;
-  font-family: 'Marcellus SC', serif;
+  font-family: 'Marcellus SC';
   font-weight: normal;
 }
 
