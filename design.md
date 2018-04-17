@@ -27,3 +27,7 @@ Worth a try, but I think Libre Baskerville might be better overall for book text
 
 Man, I really need a typeface with a small caps style too. I might have to fake the small caps, which is not ideal, but...
 
+Algerian might be an interesting font for headers. 
+
+Ibm plex serif is quite good for body text. 
+
