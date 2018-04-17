@@ -22,8 +22,8 @@ acutally, a file splitting pre-processor probably makes the most sense. It's a s
 
 Fonts, I don't like generate appear of Gentium book. 
 
-What about Cormorant Garamond with the current headers? It's really light but might work with the headers?
+What about Cormorant Garamond with the current headers? It's really light but might work with the headers? (Actually, its pretty nice. I like it.) 
 Worth a try, but I think Libre Baskerville might be better overall for book text. I wish it had a bold italics style though. 
 
-Man, I really need a typeface with a small caps style too.
+Man, I really need a typeface with a small caps style too. I might have to fake the small caps, which is not ideal, but...
 

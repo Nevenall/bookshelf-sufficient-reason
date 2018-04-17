@@ -86,26 +86,24 @@ export default {
 </style>
 
 <style>
-@import url("https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,500i,600,600i,700,700i|Marcellus+SC");
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Serif:300,300i,400,400i,700,700i|Marcellus+SC");
 
 #typography div {
   max-width: 35em;
   margin: auto;
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1.1;
+  letter-spacing: 0ch;
+  font-family: "IBM Plex Serif";
 }
 
 #typography p {
   text-align: justify;
   hyphens: auto;
-  hyphenate-limit-lines: 2;
 }
 
-
-#page {
-  font-family: "Cormorant Garamond";
-  font-weight: 300;
-}
+/* #page {
+} */
 
 #page h1,
 #page h2,
@@ -114,8 +112,8 @@ export default {
 #page h5,
 #page h6 {
   text-align: left;
-  font-family: 'Marcellus SC';
+  font-family: "Marcellus SC";
   font-weight: normal;
+  
 }
-
 </style>
