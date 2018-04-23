@@ -18,7 +18,6 @@ It might also be interesting to be able to navigate a single markdown file. Wher
 We can either programmatically break up the file into chunks. That may make the most sense. Or try to inject some kind of nav links into the headers. 
 acutally, a file splitting pre-processor probably makes the most sense. It's a side task to make `BookShelf` compatible chunks. 
 
-<<<<<<< HEAD
 ## Typography - Specific to SR
 
 Fonts, I don't like generate appear of Gentium book. 
@@ -31,53 +30,16 @@ Man, I really need a typeface with a small caps style too. I might have to fake 
 Algerian might be an interesting font for headers. 
 
 Ibm plex serif is quite good for body text. 
-=======
-### Book.json
-
-or something like that. If there was a json doc for the booik. then we would have the pages all layed out. can link to the files and such. Not sure how that might interaactwith webpack. but it is an interesting thought. 
-
-book: title
-- Section : name, directory? 
-  - Page : file
-  - page : file
-
-easy to make a nav from. 
-
-if a page doesn't have a file, we can show empty, that's easy
-if a file doesn't have a page we don't show it. 
-does mean we have to layout the entire format of the book. 
-
-Also makes it harder to have arbitrary levels of nav
-the overall nature of the data is important. 
-
-Basically just the book structure, serialized. 
-Simple enough. Except, we have to fill in the content. 
-
-##### Consider writing a custom loader for this nonsense
-
-```json
-{
-  Title: "The Title of My Book",
-  Pages: [],
-  Sections: [ {
-     Name: "The Name of my Section"
-     Sections
-   }
-  ]
-}
-```
-
-#### Interacting with webpack
-
-It would be pretty easy to take the book.json and the paths and match them up by path with the content from webpack require. We can even include a json schema for the book.
-
-##### I did kinda want to keep this from needing much config though.  
-
-I don't think there is any other reliable way to get files in a particular order. So, book.json it is.
 
 
 
+### Paragraphs
 
-## Typography
->>>>>>> 0bf56c2d772cefcf5088537d3daf3b45906cefac
+in general the paragraphs in sr are short. And very often just one sentence, rather then running text, which means that indented paragraphs look a little odd. there is a bit of running text, but not all that much., 
+
+### typography frame
+
+I'm tempted to replace the typography frame so we can separate the generic default typographic styles from the per-book customizations based on #page. 
+
+Also, should put the typographic styles in a separate file. 
 
