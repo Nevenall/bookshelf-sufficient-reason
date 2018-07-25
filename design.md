@@ -1,19 +1,6 @@
 # BookShelf Design Document
 
-Vue 
-Vue cli 
-Webpack 4
-Vuetify
 
-
-## Touch enabled page turning
-
-Vuetify supports touch events. 
-
-
-## Niggling bits
-
-The vuetify framework seems to be reflowing the text when the drawer is closed. Hopefully once we start filling out the css that will go away.
 
 ## Typography - Specific to SR
 
@@ -28,15 +15,11 @@ Algerian might be an interesting font for headers.
 
 Ibm plex serif is quite good for body text. 
 
+Ounce is our header font with swashes turned on. and maybe italics
 
 
 ### Paragraphs
 
 in general the paragraphs in sr are short. And very often just one sentence, rather then running text, which means that indented paragraphs look a little odd. there is a bit of running text, but not all that much., 
 
-### typography frame
-
-I'm tempted to replace the typography frame so we can separate the generic default typographic styles from the per-book customizations based on #page. 
-
-Also, should put the typographic styles in a separate file. 
 
