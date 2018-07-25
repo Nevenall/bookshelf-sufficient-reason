@@ -1,0 +1,46 @@
+@include md-register-theme("default", (
+   primary: #200a33, 
+   accent: rgb(245, 214, 11), 
+   theme: dark
+));
+
+@import "~vue-material/dist/theme/all";
+
+.md-app {
+  height: 100vh;
+}
+</style>
+
+<style>
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Serif:300,300i,400,400i,700,700i|Marcellus+SC");
+
+#page div {
+  max-width: 35em;
+  margin: auto;
+  font-size: 1.125rem;
+  line-height: 1.125;
+  letter-spacing: 0ch;
+  font-family: "IBM Plex Serif";
+}
+
+#page p {
+  hyphens: auto;
+  margin-top: 0;
+  margin-bottom: 0.55em;
+}
+
+/* #page p + p {
+  text-indent: 1.1em;
+  margin-top: 0;
+} */
+
+#page h1,
+#page h2,
+#page h3,
+#page h4,
+#page h5,
+#page h6 {
+  text-align: left;
+  font-family: "Marcellus SC";
+  font-weight: normal;
+}
