@@ -1,0 +1,136 @@
+<h1 id="general-design-notes">General Design Notes</h1>
+<p>The built in markdown typography is OK but we need We need something more elaborate for things like ellipses and degree signs that sort of thing.</p>
+<p>Markdown-it typography does a good job of replacement actually.</p>
+<h2 id="typographic-symbol-table">Typographic Symbol Table</h2>
+<table>
+<thead>
+<tr>
+<th>Symbol</th>
+<th style="text-align:center">HTML</th>
+<th style="text-align:center">Character</th>
+<th>Unreplaced (maybe)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hair space</td>
+<td style="text-align:center"><code>&amp;#8202;</code></td>
+<td style="text-align:center"></td>
+<td>M.J. -&gt; M. J.</td>
+</tr>
+<tr>
+<td>Thin space</td>
+<td style="text-align:center"><code>&amp;thinsp;</code></td>
+<td style="text-align:center"></td>
+<td>M.J. -&gt; M. J.</td>
+</tr>
+<tr>
+<td>– En dash</td>
+<td style="text-align:center"><code>&amp;ndash;</code></td>
+<td style="text-align:center">​–</td>
+<td><code>-</code></td>
+</tr>
+<tr>
+<td>— Em dash</td>
+<td style="text-align:center"><code>&amp;mdash;</code></td>
+<td style="text-align:center">​—</td>
+<td><code>--</code></td>
+</tr>
+<tr>
+<td>− Minus</td>
+<td style="text-align:center"><code>&amp;minus;</code></td>
+<td style="text-align:center">​−</td>
+</tr>
+<tr>
+<td>× Multiply</td>
+<td style="text-align:center"><code>&amp;times;</code></td>
+<td style="text-align:center">×</td>
+</tr>
+<tr>
+<td>÷ Divide</td>
+<td style="text-align:center"><code>&amp;divide;</code></td>
+<td style="text-align:center">÷</td>
+</tr>
+<tr>
+<td>‘ Left single quote</td>
+<td style="text-align:center"><code>&amp;lsquo;</code></td>
+<td style="text-align:center">‘</td>
+<td>’</td>
+</tr>
+<tr>
+<td>’ Right single quote</td>
+<td style="text-align:center"><code>&amp;lsquo;</code></td>
+<td style="text-align:center">’</td>
+<td>’</td>
+</tr>
+<tr>
+<td>“ Left double quote</td>
+<td style="text-align:center"><code>&amp;ldquo;</code></td>
+<td style="text-align:center">“</td>
+<td>&quot;</td>
+</tr>
+<tr>
+<td>” Right double quote</td>
+<td style="text-align:center"><code>&amp;rdquo;</code></td>
+<td style="text-align:center">”</td>
+<td>&quot;</td>
+</tr>
+<tr>
+<td>&amp; Ampersand</td>
+<td style="text-align:center"><code>&amp;amp;</code></td>
+<td style="text-align:center">&amp;</td>
+<td>&amp;</td>
+</tr>
+<tr>
+<td>… Ellipsis</td>
+<td style="text-align:center"><code>&amp;hellip;</code></td>
+<td style="text-align:center">…</td>
+<td>…</td>
+</tr>
+<tr>
+<td>’ Single prime</td>
+<td style="text-align:center"><code>&amp;prime;</code></td>
+<td style="text-align:center">’</td>
+</tr>
+<tr>
+<td>&quot; Double prime</td>
+<td style="text-align:center"><code>&amp;Prime;</code></td>
+<td style="text-align:center">&quot;</td>
+</tr>
+<tr>
+<td>° Degree</td>
+<td style="text-align:center"><code>&amp;deg;</code></td>
+<td style="text-align:center">°</td>
+</tr>
+<tr>
+<td>· Middle dot</td>
+<td style="text-align:center"><code>&amp;middot;</code></td>
+<td style="text-align:center">·</td>
+</tr>
+<tr>
+<td>• Bullet</td>
+<td style="text-align:center"><code>&amp;bull;</code></td>
+<td style="text-align:center">•</td>
+</tr>
+<tr>
+<td>© Copyright</td>
+<td style="text-align:center"><code>&amp;copy;</code></td>
+<td style="text-align:center">©</td>
+<td>©</td>
+</tr>
+<tr>
+<td>® Registered trademark</td>
+<td style="text-align:center"><code>&amp;reg;</code></td>
+<td style="text-align:center">®</td>
+<td>®</td>
+</tr>
+<tr>
+<td>™ Trademark</td>
+<td style="text-align:center"><code>&amp;trade;</code></td>
+<td style="text-align:center">™</td>
+<td>™</td>
+</tr>
+</tbody>
+</table>
+<h2 id="fork-and-write-would-probably-be-way-easier-as-an-npm-package.">fork and write would probably be way easier as an npm package.</h2>
+<p>except for the tasks and problem matcher actions.</p>
