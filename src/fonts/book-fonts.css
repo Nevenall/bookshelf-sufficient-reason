@@ -1,1 +1,15 @@
 /* define font faces for your book here and place the files in fonts */
+
+@font-face {
+   font-family: 'Neftali';
+   font-style: normal;
+   font-weight: 400;
+   src: url(Neftali-Regular.woff2) format('woff2');
+}
+
+@font-face {
+   font-family: "Ounce";
+   font-style: italic;
+   font-weight: 900;
+   src: url(Ounce-Alt-BlackItalic.woff2) format("woff2");
+}
