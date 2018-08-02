@@ -1,18 +1,121 @@
 /* define font faces for your book here and place the files in fonts */
 
+/*  
+   100    Extra Light or Ultra Light
+   200    Light or Thin
+   300    Book or Demi
+   400    Normal or Regular
+   500    Medium
+   600    Semibold, Demibold
+   700    Bold
+   800    Black, Extra Bold or Heavy
+   900    Extra Black, Fat, Poster or Ultra Black
+
+
+
+   black      800 (black)
+   extrabold  700 (bold)    
+   bold       600 (semi-bold)
+   regular    400 (regular)    
+   medium     300 (book)    
+   thin       200 (thin)
+
+*/
+
+@font-face {
+   font-family: 'Neftali';
+   font-style: normal;
+   font-weight: 800;
+   src: url(Neftali-Black.woff2) format('woff2');
+}
+
+@font-face {
+   font-family: 'Neftali';
+   font-style: italic;
+   font-weight: 800;
+   src: url(Neftali-BlackItalic.woff2) format('woff2');
+}
+
+@font-face {
+   font-family: 'Neftali';
+   font-style: normal;
+   font-weight: 600;
+   src: url(Neftali-SemiBold.woff2) format('woff2');
+}
+
+@font-face {
+   font-family: 'Neftali';
+   font-style: italic;
+   font-weight: 600;
+   src: url(Neftali-SemiBoldItalic.woff2) format('woff2');
+}
+
+@font-face {
+   font-family: 'Neftali';
+   font-style: normal;
+   font-weight: 300;
+   src: url(Neftali-Book.woff2) format('woff2');
+}
+
+@font-face {
+   font-family: 'Neftali';
+   font-style: italic;
+   font-weight: 300;
+   src: url(Neftali-BookItalic.woff2) format('woff2');
+}
+
 @font-face {
    font-family: 'Neftali';
    font-style: normal;
    font-weight: 400;
-   src: url(Neftali-Medium.woff2) format('woff2');
+   src: url(Neftali-Regular.woff2) format('woff2');
 }
 
+@font-face {
+   font-family: 'Neftali';
+   font-style: italic;
+   font-weight: 400;
+   src: url(Neftali-RegularItalic.woff2) format('woff2');
+}
 
+@font-face {
+   font-family: 'Neftali';
+   font-style: normal;
+   font-weight: 200;
+   src: url(Neftali-Thin.woff2) format('woff2');
+}
 
+@font-face {
+   font-family: 'Neftali';
+   font-style: italic;
+   font-weight: 200;
+   src: url(Neftali-ThinItalic.woff2) format('woff2');
+}
 
 @font-face {
    font-family: "Ounce";
    font-style: italic;
-   font-weight: 900;
+   font-weight: 800;
    src: url(Ounce-Alt-BlackItalic.woff2) format("woff2");
+}
+
+@font-face {
+   font-family: "Ounce";
+   font-style: italic;
+   font-weight: 700;
+   src: url(Ounce-Alt-BoldItalic.woff2) format("woff2");
+}
+
+@font-face {
+   font-family: "Ounce";
+   font-style: italic;
+   font-weight: 400;
+   src: url(Ounce-Alt-Italic.woff2) format("woff2");
+}
+
+@font-face {
+   font-family: "Ounce";
+   font-style: italic;
+   font-weight: 200;
+   src: url(Ounce-Alt-LightItalic.woff2) format("woff2");
 }
