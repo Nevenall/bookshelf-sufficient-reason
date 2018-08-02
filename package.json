@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "register-service-worker": "^1.0.0",
-    "vue": "^2.5.16",
+    "vue": "^2.5.17",
     "vue-router": "^3.0.1",
     "vuetify": "^1.1.9"
   },
@@ -21,7 +21,7 @@
     "@vue/cli-service": "^3.0.0-rc.10",
     "babel-plugin-transform-imports": "^1.4.1",
     "node-sass": "^4.9.2",
-    "sass-loader": "^7.0.1",
+    "sass-loader": "^7.1.0",
     "style-loader": "^0.21.0",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.1",
