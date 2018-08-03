@@ -1,5 +1,5 @@
 <template>
-   <v-app dark>
+   <v-app light>
       <v-navigation-drawer :clipped="clipped" v-model="drawer" disable-route-watcher disable-resize-watcher app>
          <v-list>
             <v-list-tile avatar @click.stop="pushNav('./')">

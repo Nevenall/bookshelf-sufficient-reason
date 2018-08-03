@@ -3,11 +3,11 @@ $primary-color: #002171;
 $secondary-color: #90caf9;
 $background-color: #303030;
 & {
-   font-family: "Neftali";
-   font-weight: 300;
-   font-size: 1.5rem;
-   line-height: 1.4;
-   color:#00416a;
+   font-family: "Zilla Slab";
+   font-weight: 400;
+   font-size: 1rem;
+   line-height: 1.5;
+   color:#232732;
 
    background-color: #dcd8cd;
 }
@@ -45,7 +45,8 @@ h6 {
       font-size: 1.406rem;
    }
    #{$textElements} {
-      font-size: 1.45rem;
+      font-size: 1.2rem;
+      // line-height: 1.2;
    }
    small {
       font-size: 0.9rem;
