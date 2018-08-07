@@ -4,6 +4,7 @@ import './plugins/vuetify'
 import App from './App.vue'
 import router from './router'
 import './registerServiceWorker'
+import './stylus/main.styl'
 
 Vue.config.productionTip = false
 
