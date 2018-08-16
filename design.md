@@ -10,6 +10,11 @@ also will need more details table styling.
 
 vuetify is frustrating to theme
 and slow.
-thinking about moving back to vue materials.
+thinking about moving back to vue material.
 
-`
+then at least we could customize the background through varibles, but, I don't care that much for the default background calc.
+
+
+Also, vuetify is heavy. 
+
+
