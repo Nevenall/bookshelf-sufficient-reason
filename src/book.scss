@@ -13,6 +13,16 @@ $background-color: #dcd8cd;
    background-color: #dcd8cd;
 }
 
+// these styles will be imported into the #page scope 
+// ** Vue Material Variables **
+// todo - we can make use of vue-material's theme css vars if we want 
+//    --md-theme-default-primary
+//    --md-theme-default-accent
+//    --md-theme-default-background
+//    --md-theme-default-background-variant
+//    --md-theme-default-accent-on-background
+//    --md-theme-default-text-primary-on-accent
+//    --md-theme-default-text-primary-on-background-variant
 h1,
 h2,
 h3,
