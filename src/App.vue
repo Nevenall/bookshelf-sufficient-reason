@@ -6,11 +6,12 @@
          </md-button>
          <span class="md-title">BookShelf
             <md-icon>chevron_right</md-icon>
+            Sufficient Reason
          </span>
       </md-app-toolbar>
       <md-app-drawer md-fixed md-persistent="full" :md-active.sync="drawer">
-         <div class="drawer-logo">
-            <img src="./assets/logo-vertical.png" alt="bookshelf logo">
+         <div>
+            <img src="./assets/logo.png" alt="mage logo">
          </div>
          <md-list>
             <md-list slot="md-expand" v-for="section in book.sections" :key="section.name">
@@ -56,7 +57,7 @@ export default {
 
 @include md-register-theme(
   "default",
-  (primary: #448aff, accent: #ff6600, background: #ffffff)
+  (primary: #232732, accent: #E34234, background: #dcd8cd)
 );
 @import "~vue-material/dist/theme/all";
 @import "fonts/system-fonts.css";
