@@ -9,9 +9,9 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
-    "native": "^0.3.3",
     "register-service-worker": "^1.5.2",
     "vue": "^2.5.17",
+    "vue-analytics": "^5.13.0",
     "vue-material": "^1.0.0-beta-10.2",
     "vue-router": "^3.0.1"
   },
@@ -22,6 +22,7 @@
     "@vue/cli-service": "^3.0.1",
     "ajv": "^6.5.3",
     "babel-plugin-transform-imports": "^1.4.1",
+    "native": "^0.3.3",
     "node-sass": "^4.9.3",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.21.0",
