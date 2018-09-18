@@ -17,9 +17,9 @@
   },
   "devDependencies": {
     "@babel/polyfill": "^7.0.0",
-    "@vue/cli-plugin-babel": "^3.0.2",
-    "@vue/cli-plugin-pwa": "^3.0.2",
-    "@vue/cli-service": "^3.0.2",
+    "@vue/cli-plugin-babel": "^3.0.3",
+    "@vue/cli-plugin-pwa": "^3.0.3",
+    "@vue/cli-service": "^3.0.3",
     "ajv": "^6.5.3",
     "babel-plugin-transform-imports": "^1.5.1",
     "node-sass": "^4.9.3",
