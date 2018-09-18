@@ -9,7 +9,7 @@
             Sufficient Reason
          </span>
       </md-app-toolbar>
-      <md-app-drawer md-fixed md-persistent="full" :md-active.sync="drawer">
+      <md-app-drawer :md-active.sync="drawer">
          <div>
             <img src="./assets/logo.png" alt="mage logo">
          </div>
