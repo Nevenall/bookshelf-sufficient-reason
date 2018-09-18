@@ -11,7 +11,7 @@
       </md-app-toolbar>
       <md-app-drawer :md-active.sync="drawer">
          <div>
-            <img src="./assets/logo.png" alt="mage logo">
+            <img src="./assets/logo.png" alt="mage logo" height="300" width="300" />
          </div>
          <md-list>
             <md-list-item md-expand v-for="section in book.sections" :key="section.name">
