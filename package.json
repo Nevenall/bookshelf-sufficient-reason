@@ -20,7 +20,7 @@
     "@babel/polyfill": "^7.4.4",
     "@vue/cli-plugin-babel": "^3.7.0",
     "@vue/cli-plugin-pwa": "^3.7.0",
-    "@vue/cli-service": "^3.7.0",
+    "@vue/cli-service": "^5.0.8",
     "ajv": "^6.10.0",
     "babel-plugin-transform-imports": "^1.5.1",
     "node-sass": "^4.12.0",
